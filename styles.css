@@ -1,0 +1,116 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(250, 250, 250);
+}
+
+img {
+  position: relative;
+  left: 16rem;
+}
+
+.container {
+  margin: 4rem 5rem
+}
+
+.heading {
+  text-align: center;
+}
+
+.reliable {
+  font-weight: 200;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.powered {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.highpoint {
+  max-width: 40%;
+  position: relative;
+  left: 22rem;
+  font-size: 14px;
+  margin-top: 1.2rem;
+}
+
+.main-body {
+  position: relative;
+  margin-top: 4rem;
+}
+
+.card {
+  max-width: 30%;
+  height: 15.5rem;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 7px;
+  box-shadow: 0 20px 20px 4px rgba(0, 0, 0, 0.05);
+}
+
+#Supervisor {
+  position: absolute;
+  top: 8.5rem;
+  left: 1.5rem;
+}
+
+#Team-Builder {
+  position: absolute;
+  top: 0;
+  right: 25.6rem;
+}
+
+#Karma {
+  position: absolute;
+  top: 17rem;
+  right: 25.6rem;
+}
+
+#Calculator {
+  position: absolute;
+  top: 8.5rem;
+  right: 1.5rem;
+}
+
+.color-banner {
+  height: 0.25rem;
+}
+
+#cyan {
+  background-color: hsl(180, 62%, 55%);
+}
+
+#red {
+  background-color: hsl(0, 78%, 62%);
+}
+
+#orange {
+  background-color: hsl(34, 97%, 64%);
+}
+
+#blue {
+  background-color: hsl(212, 86%, 64%);
+}
+
+.text {
+  margin: 2rem 2rem;
+}
+
+.first-text {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.second-text {
+  font-size: 13px;
+  margin-top: 0;
+  line-height: 1.8;
+}
+
+footer {
+  position: relative;
+    top: 36rem;
+}
