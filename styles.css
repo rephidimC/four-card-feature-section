@@ -48,28 +48,25 @@ img {
   overflow: hidden;
   border-radius: 7px;
   box-shadow: 0 20px 20px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
 }
 
-#Supervisor {
-  position: absolute;
+.Supervisor {
   top: 8.5rem;
   left: 2rem;
 }
 
-#Team-Builder {
-  position: absolute;
+.Team-Builder {
   top: 0;
   right: 25.6rem;
 }
 
-#Karma {
-  position: absolute;
+.Karma {
   top: 17rem;
   right: 25.6rem;
 }
 
-#Calculator {
-  position: absolute;
+.Calculator {
   top: 8.5rem;
   right: 2rem;
 }
@@ -112,5 +109,65 @@ img {
 
 footer {
   position: relative;
-    top: 36rem;
+  top: 36rem;
+}
+
+
+@media (max-width: 1340px) {
+  .container {
+    margin: 0;
+  }
+
+  .heading {
+    margin-top: 5.2rem;
+  }
+
+  .reliable {
+    font-size: 1.5rem;
+  }
+
+.powered {
+  font-size: 1.5rem;
+}
+.highpoint {
+  left: 0.6rem;
+    max-width: 94%;
+    font-size: 15px;
+}
+
+.main-body {
+  margin-top: 4.9rem;
+}
+
+.card {
+  position: relative;
+    max-width: 88%;
+    top: 0;
+    right: 0;
+    left: 25px;
+    height: 14rem;
+    margin-bottom: 1.5rem;
+}
+
+.text {
+    margin: 1.5rem 1.5rem;
+}
+
+.first-text {
+    margin-bottom: 0.2rem;
+  }
+
+  .second-text {
+    font-size: 13px;
+  }
+
+img {
+  max-width: 19%;
+    left: 13.6rem;
+    top: 0.5rem;
+}
+
+footer {
+  top: 0;
+}
 }
