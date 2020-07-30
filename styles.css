@@ -53,7 +53,7 @@ img {
 #Supervisor {
   position: absolute;
   top: 8.5rem;
-  left: 1.5rem;
+  left: 2rem;
 }
 
 #Team-Builder {
@@ -71,7 +71,7 @@ img {
 #Calculator {
   position: absolute;
   top: 8.5rem;
-  right: 1.5rem;
+  right: 2rem;
 }
 
 .color-banner {
